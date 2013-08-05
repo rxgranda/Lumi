@@ -6,5 +6,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="descSplash">LumiLogo</string>
+    <string name="capturar">Capturar</string>
+    <string name="pinacoteca">Pinacoteca</string>
 
 </resources>
