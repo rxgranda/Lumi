@@ -8,5 +8,18 @@
     <string name="descSplash">LumiLogo</string>
     <string name="capturar">Capturar</string>
     <string name="pinacoteca">Pinacoteca</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_pinacoteca">Pinacoteca</string>
+
+    <string-array name="ordenarArray">
+        <item>Por orden alfabetico</item>
+        <item>Por Autor</item>
+        <item>Por Clasificación pintura</item>
+        <item>Por Antiguedad</item>
+    </string-array>
+
+    <string name="title_activity_autores_relacionados">AutoresRelacionados</string>
+    <string name="title_activity_pinturas_relacionadas">PinturasRelacionadas</string>
+    <string name="title_activity_detalle">Detalle</string>
 
 </resources>

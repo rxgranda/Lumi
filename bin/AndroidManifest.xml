@@ -33,11 +33,39 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>
         -->
         <activity
             android:name="com.giandroid.lumi.MenuLumi"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.giandroid.lumi.InfoActivity"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name="com.giandroid.lumi.Pinacoteca"
+            android:label="@string/title_activity_pinacoteca"
+            android:parentActivityName="com.giandroid.lumi.MenuLumi" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.giandroid.lumi.MenuLumi" />
+        </activity>
+        <activity
+            android:name="com.giandroid.lumi.AutoresRelacionados"
+            android:label="@string/title_activity_autores_relacionados" >
+        </activity>
+        <activity
+            android:name="com.giandroid.lumi.PinturasRelacionadas"
+            android:label="@string/title_activity_pinturas_relacionadas" >
+        </activity>
+        <activity
+            android:name="com.giandroid.lumi.Detalle"
+            android:label="@string/title_activity_detalle"
+            android:parentActivityName="com.giandroid.lumi.InfoActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.giandroid.lumi.InfoActivity" />
         </activity>
     </application>
 

@@ -2,28 +2,21 @@ package com.giandroid.lumi;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.content.Intent;
 import android.view.Menu;
-import android.view.View;
 
-public class MenuLumi extends Activity {
+public class AutoresRelacionados extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_menu_lumi);
+		setContentView(R.layout.activity_autores_relacionados);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.menu_lumi, menu);
+		getMenuInflater().inflate(R.menu.autores_relacionados, menu);
 		return true;
-	}
-	
-	public void irPinacoteca(View view) {
-	    Intent intent = new Intent(this, Pinacoteca.class);	
-	    startActivity(intent);
 	}
 
 }

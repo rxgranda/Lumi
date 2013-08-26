@@ -8,6 +8,9 @@
 package com.giandroid.lumi;
 
 public final class R {
+    public static final class array {
+        public static final int ordenarArray=0x7f060000;
+    }
     public static final class attr {
     }
     public static final class dimen {
@@ -21,24 +24,70 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int capturar=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int pinacoteca=0x7f020002;
-        public static final int start=0x7f020003;
+        public static final int artist_icon=0x7f020000;
+        public static final int capturar=0x7f020001;
+        public static final int disckette_icon=0x7f020002;
+        public static final int home_icon=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int pinacoteca=0x7f020005;
+        public static final int pinturasralacionadas=0x7f020006;
+        public static final int start=0x7f020007;
     }
     public static final class id {
-        public static final int action_settings=0x7f080003;
-        public static final int imageButton1=0x7f080000;
-        public static final int imageButton2=0x7f080001;
-        public static final int imageView1=0x7f080002;
+        public static final int Autor=0x7f090010;
+        public static final int Pintura=0x7f090004;
+        public static final int action_settings=0x7f090023;
+        public static final int gridView1=0x7f090003;
+        public static final int imageButton1=0x7f090020;
+        public static final int imageButton2=0x7f090021;
+        public static final int imageButton3=0x7f09001f;
+        public static final int imageButton4=0x7f09001e;
+        public static final int imageButton5=0x7f090022;
+        public static final int imageView1=0x7f090005;
+        public static final int imageView2=0x7f090011;
+        public static final int scrollView1=0x7f090002;
+        public static final int scrollView21=0x7f09001c;
+        public static final int spinner1=0x7f090000;
+        public static final int tableRow1=0x7f090006;
+        public static final int tableRow2=0x7f090008;
+        public static final int tableRow21=0x7f090012;
+        public static final int tableRow22=0x7f090015;
+        public static final int tableRow23=0x7f090018;
+        public static final int tableRow24=0x7f09001b;
+        public static final int tableRow3=0x7f09000b;
+        public static final int tableRow4=0x7f09000e;
+        public static final int textView1=0x7f090001;
+        public static final int textView2=0x7f090007;
+        public static final int textView21=0x7f090013;
+        public static final int textView22=0x7f090014;
+        public static final int textView23=0x7f090016;
+        public static final int textView24=0x7f090017;
+        public static final int textView25=0x7f090019;
+        public static final int textView26=0x7f09001a;
+        public static final int textView27=0x7f09001d;
+        public static final int textView3=0x7f090009;
+        public static final int textView4=0x7f09000a;
+        public static final int textView5=0x7f09000c;
+        public static final int textView6=0x7f09000d;
+        public static final int textView7=0x7f09000f;
     }
     public static final class layout {
-        public static final int activity_menu_lumi=0x7f030000;
-        public static final int activity_splash_screen=0x7f030001;
+        public static final int activity_autores_relacionados=0x7f030000;
+        public static final int activity_detalle=0x7f030001;
+        public static final int activity_info=0x7f030002;
+        public static final int activity_menu_lumi=0x7f030003;
+        public static final int activity_pinacoteca=0x7f030004;
+        public static final int activity_pinturas_relacionadas=0x7f030005;
+        public static final int activity_splash_screen=0x7f030006;
     }
     public static final class menu {
-        public static final int menu_lumi=0x7f070000;
-        public static final int splash_screen=0x7f070001;
+        public static final int autores_relacionados=0x7f080000;
+        public static final int detalle=0x7f080001;
+        public static final int info=0x7f080002;
+        public static final int menu_lumi=0x7f080003;
+        public static final int pinacoteca=0x7f080004;
+        public static final int pinturas_relacionadas=0x7f080005;
+        public static final int splash_screen=0x7f080006;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -47,6 +96,11 @@ public final class R {
         public static final int descSplash=0x7f050004;
         public static final int hello_world=0x7f050002;
         public static final int pinacoteca=0x7f050006;
+        public static final int title_activity_autores_relacionados=0x7f050009;
+        public static final int title_activity_detalle=0x7f05000b;
+        public static final int title_activity_info=0x7f050007;
+        public static final int title_activity_pinacoteca=0x7f050008;
+        public static final int title_activity_pinturas_relacionadas=0x7f05000a;
         public static final int title_activity_splash_screen=0x7f050003;
     }
     public static final class style {
@@ -71,10 +125,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }
